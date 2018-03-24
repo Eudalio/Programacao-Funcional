@@ -3,4 +3,4 @@
 
 --Exemplo: insert 2 [0, 1, 3, 5] == [0, 1, 2, 3, 5]
 
-insert a xs = [x | x <- filter (<=a) xs] ++ [a] ++ [x | x <- filter (>a) xs]
+insert a xs = [x | x <- filter ( <= a) xs] ++ [a] ++ [x | x <- filter (>a) xs]
