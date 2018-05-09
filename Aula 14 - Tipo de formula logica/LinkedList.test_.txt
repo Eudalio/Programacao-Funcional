@@ -1,0 +1,16 @@
+data LinkedList a = Vazia | No a (LinkedList a) deriving (Eq, Show)
+
+fromList :: [a] -> LinkedList a
+fromList xs = error "voce precisa implementar esta funcao"
+
+toList :: LinkedList a -> [a]) 
+toList l = error "voce precisa implementar esta funcao"
+
+append :: a -> LinkedList a -> LinkedList a
+append x l = error "voce precisa implementar esta funcao"
+
+reverseLinkedList :: LinkedList a -> LinkedList a
+reverseLinkedList l = error "voce precisa implementar esta funcao"
+ 
+
+
