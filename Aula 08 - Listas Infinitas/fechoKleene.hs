@@ -1,0 +1,1 @@
+fechoKleene xs = "" : [ w ++ [v] | w <- (fechoKleene xs), v <- xs ]
